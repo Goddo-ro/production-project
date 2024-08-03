@@ -9,7 +9,7 @@ interface NavbarProps {
 
 export const Navbar = ({className}: NavbarProps) => {
     return (
-        <div className={classNames({cls: classes.Navbar, additional: [className]})}>
+        <div className={classNames({cls: classes.navbar, additional: [className]})}>
             <div className={classes.links}>
                 <AppLink theme={AppLinkTheme.INVERTED} to={"/about"}>About</AppLink>
                 <AppLink theme={AppLinkTheme.INVERTED} to={"/"}>Main</AppLink>

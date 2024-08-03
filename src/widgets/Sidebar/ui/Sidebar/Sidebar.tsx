@@ -13,7 +13,7 @@ export const Sidebar = () => {
     }
 
     return (
-        <div className={classNames({cls: classes.Sidebar, mods: {[classes.collapsed]: collapsed}})}>
+        <div className={classNames({cls: classes.sidebar, mods: {[classes.collapsed]: collapsed}})}>
             <Button onClick={toggleCollapsed}>
                 Toggle
             </Button>
