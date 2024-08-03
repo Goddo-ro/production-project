@@ -1,7 +1,7 @@
 type Mods = Record<string, boolean | string>;
 
 interface ClassNamesArgs {
-    cls: string,
+    cls?: string,
     mods?: Mods,
     additional?: string[],
 };
@@ -13,9 +13,9 @@ export const classNames = (args: ClassNamesArgs): string => {
 
     return [
         cls,
-        ...additional.filter(Boolean),
+        ...additional,
         ...Object.entries(mods)
             .filter(([_, value]) => Boolean(value))
             .map(([className]) => className)
-    ].join(' ');
+    ].filter(Boolean).join(' ');
 }
