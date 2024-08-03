@@ -1,4 +1,6 @@
 {
-    "test": "test",
-    "button": "English"
+    "button": "English",
+    "aboutLink": "About",
+    "mainLink": "Main",
+    "toggleSidebar": "Toggle"
 }

@@ -1,4 +1,6 @@
 {
-    "test": "тест",
-    "button": "Русский"
+    "button": "Русский",
+    "aboutLink": "О сайте",
+    "mainLink": "Главная",
+    "toggleSidebar": "Переключить"
 }
