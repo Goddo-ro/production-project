@@ -2,5 +2,6 @@
     "button": "Русский",
     "aboutLink": "О сайте",
     "mainLink": "Главная",
-    "toggleSidebar": "Переключить"
+    "toggleSidebar": "Переключить",
+    "pageNotFound": "Страница не найдена"
 }
