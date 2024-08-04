@@ -3,5 +3,7 @@
     "aboutLink": "О сайте",
     "mainLink": "Главная",
     "toggleSidebar": "Переключить",
-    "pageNotFound": "Страница не найдена"
+    "pageNotFound": "Страница не найдена",
+    "errorText": "Что-то пошло не так, попробуйте перезагрузить страницу",
+    "errorReloadBtn": "Перезагрузить"
 }

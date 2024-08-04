@@ -3,5 +3,7 @@
     "aboutLink": "About",
     "mainLink": "Main",
     "toggleSidebar": "Toggle",
-    "pageNotFound": "Page not found"
+    "pageNotFound": "Page not found",
+    "errorText": "Something went wrong, try to reload the page",
+    "errorReloadBtn": "Reload"
 }
